@@ -1,0 +1,145 @@
+.mission-values {
+    display: flex;
+    height: auto;
+    margin-bottom: 60px;
+}
+
+.text-container1 {
+    width: 55%;
+    background-color: #007030;
+    padding: 50px 80px;
+    color: white;
+    text-align: end;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.text-container1 h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.text-container1 p {
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.text-container1 button {
+    padding: 10px 25px;
+    color: #fff;
+    background-color: black;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.text-container1 button a:hover {
+    text-decoration: underline;
+}
+
+.text-container1 button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.image-container1 {
+    width: 45%;
+}
+
+.image-container1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+@media (max-width: 1291px) {
+    .mission-values {
+        height: auto;
+        margin-bottom: 40px;
+    }
+
+    .text-container {
+        padding: 20px;
+        padding: 25px 50px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    .text-container h2 {
+        margin-bottom: 7px;
+        font-size: 20px;
+    }
+
+    .text-container p {
+        font-size: 13px;
+    }
+
+    .text-container button {
+        padding: 5px 10px;
+        font-size: 12px;
+        margin-top: 7px;
+        cursor: pointer;
+    }
+
+    .image-container {
+        width: 45%;
+    }
+
+    .image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .mission-values {
+        height: auto;
+        margin-bottom: 40px;
+        flex-direction: column;
+    }
+
+    .text-container {
+        padding: 20px;
+        padding: 15px 25px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 0px;
+        width: 100%;
+    }
+
+    .text-container h2 {
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    .text-container p {
+        font-size: 13px;
+    }
+
+    .text-container button {
+        padding: 5px 10px;
+        font-size: 13px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+
+    .image-container {
+        width: 100%;
+    }
+
+    .image-container img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 15px;
+    }
+}
+

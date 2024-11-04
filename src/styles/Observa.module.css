@@ -1,0 +1,27 @@
+/* Observa.module.css */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.imageCenter {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.textSection {
+    margin: 20px 0;
+    
+}
+
+.imagesSideBySide {
+    display: flex;
+    justify-content:space-around;
+    margin: 20px 0;
+}
+
+.imagesSideBySide img {
+    max-width: 48%; /* Ajusta o tamanho das imagens para ficarem lado a lado */
+}
