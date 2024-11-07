@@ -1,0 +1,6 @@
+[build]
+  # Diretório onde os arquivos finais de build são gerados
+  publish = "dist"
+  
+  # Comando para gerar os arquivos de produção
+  command = "npm run build"
