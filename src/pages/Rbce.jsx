@@ -26,7 +26,7 @@ const Rbce = () => {
                 <br></br>2. Na instalação de uma nova etapa de nosso Observatório Nacional desses direitos, em convenio com a PUC – SP e seu observatório de violência policial.
                 <br></br>3. Formar atores sociais e políticos no âmbito da sociedade civil e politica e nos poderes do Estado para levar adiante estas perspectivas baseadas nos Direitos.
                 <br></br><br></br>
-                Com isso, nasceu a Campanha 4x4
+                Com isso, nasceu a <a href='/campanha' target='_blank'><u>Campanha 4x4</u></a>
                 <br></br><br></br>
                 Caso queira saber um pouco mais sobre o histórico da RBCE, seus períodos de atuação e campanhas, acesse o documento
                 </p>

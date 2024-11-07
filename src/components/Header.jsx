@@ -14,50 +14,48 @@ const Header = () => {
                     <ul className="nav-list">
                         <li><Link to="/">Pagina Inicial</Link></li>
                         <li className='dropdown'>
-                        <li><Link to="/sobre">Sobre</Link></li>
+                        <li><Link to="#">Quem somos</Link></li>
                             <ul className="dropdown-menu"> 
                                 <li><Link to="/somos">Quem somos</Link></li>
                                 <li><Link to="/historia">Nossa história</Link></li>
                                 <li><Link to="/equipe">Equipe</Link></li>
                             </ul>
                         </li>        
-                        <li><Link to="/servicos">Produção</Link></li>
+                        
                         {/*<li><Link to="/portfolio">Portfólio</Link></li>*/}
                         <li className='dropdown'>
+                        <li><Link to="#">Produção</Link></li>
                         {/*<li><Link to="/comunicacao">Comunicação</Link></li>*/}
                             <ul className="dropdown-menu"> 
                                 <li><Link to="/todos">Todos os posts</Link></li>
                                 <li><Link to="/curadoria">Curadoria</Link></li>
                                 <li><Link to="/opniao">Coluna de Opnião</Link></li>
-                                <li><Link to="/observa">ObservActiva</Link></li>
+                                <li><Link to="/observativa">ObservActiva</Link></li>
                                 <li><Link to="/conversando">Conversando com Seguridade</Link></li>
                                 <li><Link to="/nota">Nota</Link></li>
                             </ul>
                         </li>    
                         <li className='dropdown'>
-                        <li><Link to="/observa">Observatório</Link></li>
+                        <li><Link to="#">Observatório</Link></li>
                         
                             <ul className="dropdown-menu">
+                            <li><Link to="/observa">Observatório</Link></li>
                             <li><Link to="/laboratorio">Laboratórios Político</Link></li>
                             </ul>     
                         </li>
                         <li className='dropdown'>
-                        <li><Link to="/observa">Plataforma de Ensino</Link></li>
-                        
-                            <ul className="dropdown-menu">
-                            <li><Link to="/laboratorio">Sobre</Link></li>
-                            <li><Link to="/laboratorio">Sobre</Link></li>
-                            </ul>     
+                        <li><Link to="/plataforma">Plataforma de Ensino</Link></li>    
                         </li>             
                         <li className='dropdown'>
-                        <li><Link to="/rbce">RBCE</Link></li>
+                        <li><Link to="#">RBCE</Link></li>
                             <ul className="dropdown-menu"> 
-                                <li><Link to="/todos">Campanha 4 x 4</Link></li>
+                                <li><Link to="/rbce">RBCE</Link></li>
+                                <li><Link to="/campanha">Campanha 4 x 4</Link></li>
                             </ul>
                             </li>    
                         
                         <li><Link to="/calendario">Calendário</Link></li>
-                        <li><Link to="/calendario">Contato</Link></li>
+                        <li><Link to="/contato">Contato</Link></li>
                     </ul>
                     
                 </nav>

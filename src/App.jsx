@@ -1,10 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import Sobre from './pages/Sobre';
 import Servicos from './pages/Servicos';
 import Portfolio from './pages/Portfolio';
-import Comunicacao from './pages/Comunicacao';
+import Plataforma from './pages/Plataforma';
 import Equipe from './pages/Equipe'
 import Calendario from './pages/Calendario';
 import Laboratorio from './pages/Laboratorio';
@@ -17,6 +16,9 @@ import Curadoria from './pages/Curadoria'
 import Opniao from './pages/Opniao'
 import Conversando from './pages/Conversando'
 import Nota from './pages/Nota'
+import Contato from './pages/Contato'
+import ObservaAT from './pages/ObservaAT';
+import Campanha from './pages/Campanha';
 
 import './styles/Main.css';
 
@@ -26,10 +28,9 @@ const App = () => {
         <Router>
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/sobre" element={<Sobre />} />
                 <Route path="/servicos" element={<Servicos />} />
                 <Route path="/portfolio" element={<Portfolio />} />
-                <Route path="/comunicacao" element={<Comunicacao />} />
+                <Route path="/plataforma" element={<Plataforma />} />
                 <Route path="/equipe" element={<Equipe />} />
                 <Route path="/calendario" element={<Calendario />} />
                 <Route path="/laboratorio" element={<Laboratorio />} />
@@ -42,6 +43,10 @@ const App = () => {
                 <Route path="/opniao" element={<Opniao />} />
                 <Route path="/conversando" element={<Conversando />} />
                 <Route path="/nota" element={<Nota />} />
+                <Route path="/contato" element={<Contato />} />
+                <Route path="/observativa" element={<ObservaAT />} />
+                <Route path="/campanha" element={<Campanha />} />
+
             </Routes>
         </Router>
     );

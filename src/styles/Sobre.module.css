@@ -63,3 +63,8 @@ main{
     font-size: 21px;
 
 }
+
+.sobre a {
+    text-decoration: none;
+    color:#333;
+}

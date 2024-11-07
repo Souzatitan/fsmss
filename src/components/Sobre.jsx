@@ -1,12 +1,11 @@
 import React from 'react';
-import style from '../styles/Sobre.module.css'
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import style from '../styles/Sobre.module.css';
+
 
 const Home = () => {
     return (
         <div>
-            <Header />
+            
             <main>
                 <div className={style.sobre}>
                     <br></br><br></br>
@@ -27,7 +26,7 @@ const Home = () => {
                     
                 </div>
             </main>
-            <Footer />
+            
         </div>
     );
 };

@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-const Comunicacao = () => {
+const ObservaAT = () => {
     return (
         <div>
             <Header />
@@ -14,4 +14,4 @@ const Comunicacao = () => {
     );
 };
 
-export default Comunicacao;
+export default ObservaAT;

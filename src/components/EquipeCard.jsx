@@ -8,7 +8,9 @@ function EquipeCard({ profilePhoto, name, jobTitle, description, instagram, link
   return (
     <div className="card">
       <div className="image-container">
+        <a href="#">
         <img src={profilePhoto} alt="Profile" />
+        </a>
       </div>
       <div className="content">
         <h2 className="profile-name">{name}</h2>
@@ -16,15 +18,11 @@ function EquipeCard({ profilePhoto, name, jobTitle, description, instagram, link
         <p className="description">{description}</p>
       </div>
       <div className="social-links">
-        <a className="instagram" href={instagram}>
-        <FontAwesomeIcon icon={faInstagram} />
-        </a>
+        
         <a className="linkedin" href={linkedin}>
         <FontAwesomeIcon icon={faLinkedin} />
         </a>
-        <a className="twitter" href={twitter}>
-        <FontAwesomeIcon icon={faTwitter} />
-        </a>
+        
       </div>
     </div>
   );
